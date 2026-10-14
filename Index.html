@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NOVEXA COLLECTION : votre boutique de mode.">
+  <title>NOVEXA COLLECTION</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #0b0b0b;
+      color: #f7f5f0;
+      font-family: Georgia, serif;
+      text-align: center;
+    }
+
+    header {
+      padding: 25px 10px;
+      border-bottom: 1px solid #c9a227;
+    }
+
+    header h2 {
+      color: #c9a227;
+      letter-spacing: 4px;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: white;
+      margin: 8px;
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 80px 20px;
+    }
+
+    .hero p {
+      color: #c9a227;
+      letter-spacing: 3px;
+    }
+
+    .hero h1 {
+      color: #c9a227;
+      font-size: 34px;
+      margin: 20px 0;
+    }
+
+    .hero .description {
+      color: #ddd;
+      letter-spacing: 0;
+      line-height: 1.8;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 25px;
+      border: 1px solid #c9a227;
+      color: #c9a227;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 35px 20px;
+    }
+
+    section h2 {
+      color: #c9a227;
+      margin-bottom: 20px;
+    }
+
+    .categories {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .category {
+      border: 1px solid #333;
+      padding: 22px 18px;
+      min-width: 130px;
+    }
+
+    footer {
+      border-top: 1px solid #333;
+      padding: 25px 10px;
+      color: #aaa;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>NOVEXA</h2>
+    <p>COLLECTION</p>
+
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#marque">La marque</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero" id="accueil">
+      <p>ÉLÉGANCE & DISTINCTION</p>
+      <h1>NOVEXA COLLECTION</h1>
+      <p class="description">
+        Découvrez un univers de mode où le style rencontre l'élégance.
+        Des pièces sélectionnées pour affirmer votre personnalité.
+      </p>
+      <a href="#boutique" class="button">DÉCOUVRIR LA BOUTIQUE</a>
+    </div>
+
+    <section id="boutique">
+      <h2>NOTRE UNIVERS</h2>
+
+      <div class="categories">
+        <div class="category">Vêtements</div>
+        <div class="category">Chaussures</div>
+        <div class="category">Sacs</div>
+        <div class="category">Accessoires</div>
+      </div>
+
+      <p style="margin-top:25px;color:#aaa;">
+        Nos collections arrivent bientôt.
+      </p>
+    </section>
+
+    <section id="marque">
+      <h2>NOTRE MARQUE</h2>
+      <p>
+        NOVEXA COLLECTION : le style, le caractère et l'élégance.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>CONTACT</h2>
+      <p>Notre équipe sera bientôt disponible pour vos commandes.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© NOVEXA COLLECTION — Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
